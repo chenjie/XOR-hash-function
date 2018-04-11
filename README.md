@@ -25,6 +25,11 @@ gcc -Wall -std=c99 -c hash_functions.c
 gcc -Wall -std=c99 -o compute_hash compute_hash.o hash_functions.o
 ```
 
+### Usage
+```
+Usage: compute_hash BLOCK_SIZE [ COMPARISON_HASH ]
+```
+
 ### Examples
 Standard input:
 ```
